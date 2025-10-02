@@ -1,3 +1,7 @@
+// header guard
+#ifndef BOARD_H  // もし BOARD_H が未定義なら
+#define BOARD_H  // BOARD_H を定義する
+
 #include <vector>
 
 struct MoveRec {
@@ -34,4 +38,4 @@ private:
     int pending_y_;
 };
 
-
+#endif // BOARD_H

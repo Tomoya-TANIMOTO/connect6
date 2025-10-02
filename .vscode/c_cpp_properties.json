@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/include/c++/13/"
+            ],
+            "defines": [],
+            "browse": {
+                "path": [
+                    "/usr/include/c++/13/"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
